@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navBar shadow-sm">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand sticky-sm-top">POKEDEX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="pokemonNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pokedex.html">Pokédex</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero d-flex align-items-center">
+        <div class="container hero-content">
+          <h1 class="display-4 fw-bold">Pokedex</h1>
+          <p class="lead">An encyclopedia for our Trainers!</p>
+          <a href="pokedex.html" class="btn mainBlue btn-dark btn-lg mt-2">Pokedex</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="card card-body">
+            <h1 class="align-content-sm-start">My Picks:</h1>
+        </section>
+        <div id="pokemonList" class="row m-lg-5 justify-content-center">
+
+        </div>
+    </main>
+
+    <script src="FP.js"></script>
+</body>
+</html>
